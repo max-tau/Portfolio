@@ -7,5 +7,42 @@
         <header>
             <h1>Contact Me</h1>
         </header>
+        <hr />
+        <section>
+            <p>Please use the form below to get in touch with me and I'll make sure that I get back to you as soon as I can!</p>
+        </section>
+        <fieldset>
+            <legend>Your contact details</legend>
+            <label>
+                First name:
+                <input type="text" name="name">
+            </label>
+        </br>
+            <label>
+                Surname:
+                <input type="text" name="surname">
+            </label>
+        </br>
+            <label>
+                Email:
+                <input type="email" name="email">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Reason for contacting</legend>
+            <select name="reason">
+                <option value=" " selected> </option>
+                <option value="Recruitment">Recruitment</option>
+                <option value="Networking">Networking</option>
+                <option value="Just to say hi!">Just to say hi!</option>
+                <option value="Other reason (specify below)">Other reason (specify below)</option>
+            </select>
+        </br>
+                    <label>
+                Other reason:
+            <input type="text" name="Other reason">
+        </label>
+        </fieldset>
+        <input type="submit" name="submit" value="Submit">
         </body>
         </html>
