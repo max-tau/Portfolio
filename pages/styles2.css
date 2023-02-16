@@ -1,0 +1,36 @@
+h3:hover {
+    background-color: blueviolet;
+}
+#box:checked +label {
+    color:green;
+}
+button:hover {
+    color: red
+}
+p:hover {
+    font-style: italic; padding: 50px;
+}
+a:active {
+    color: green;
+}
+p::first-letter {
+    color: red;
+}
+a {
+    text-decoration: none;
+}
+p {
+    position: relative;
+ }
+ p::after {
+    content: "";
+    background-color: palegoldenrod;
+    height: 30px;
+    width: 30%;
+    position: absolute;
+    left: 0px;
+    z-index: -10;
+ }
+ a[href="https://picsum.photos/200"] {
+    font-family: 'Trebuchet MS';
+ }
