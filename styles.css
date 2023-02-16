@@ -1,14 +1,15 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-h1 {
+h1.main-heading {
     text-align:center;
 }
-
-}
-
-
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 .profile-pic + p {
     font-family: 'Lucida-Sans';
 }
+/* CSS HEX */
+--rich-black: #121d24ff;
+--verdigris: #659d97ff;
+--alice-blue: #d9e3ebff;
+--raisin-black: #36232aff;
+--dim-gray: #6b6b6bff;
