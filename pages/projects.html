@@ -1,36 +1,61 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="csspracticestyles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Projects</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
         <body>
-        <header>
-            <h1>My Projects</h1>
-        </header>
-        <main>
-            <section>
-                <h2>Projects</h2>
-                <br />
-                <table>
-                    <thead>
+            <div id="container">
+                <header>
+                    <img src="../images/logo (1).png" alt="logo" class="logo">
+
+                    <nav class="navigation">
+                        <a href="../index.html" class="internal--link">Home</a>
+                        <a href="../pages/contact.html" target= "_blank" class="internal--link" id="contact-me">Contact Me</a>
+                      </nav>
+                 </header>
+                 <main>
+                    <h1 class="headline">These are my projects.</h1>
+                 </br>
+
+                    <section>
+                     <table class="project-table">
+                     <thead>
                         <tr>
-                        <th>Name</th>
-                        <th>Image</th>
-                        <th>Description</th>
-                    </tr>
+                        <th class="table-index">Name</th>
+                        <th class="table-index">Image</th>
+                        <th class="table-index">Description</th>
+                        </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Project 1</td>
-                            <td>
-                                <img src="../images/Dummy_project.jpg" alt="A picture of Project 1">
-                            </td>
-                            <td>Just an example for now</td>
+                            <td class="table-content">Project 1</td>
+                            <td class="table-content"><img  src="https://picsum.photos/200" alt="A picture of Project 1"></td>
+                            <td class="table-content">Just an example for now</td>
+                        </tr>
+                        <tr>
+                            <td class="table-content">Project 2</td>
+                            <td class="table-content"><img  src="../images/david-kovalenko-G85VuTpw6jg-unsplash.jpg" alt="A picture of Project 1"></td>
+                            <td class="table-content">Just an example for now</td>
+                        </tr>
+                        <tr>
+                            <td class="table-content">Project 3</td>
+                            <td class="table-content"><img  src="https://picsum.photos/200" alt="A picture of Project 1"></td>
+                            <td class="table-content">Just an example for now</td>
                         </tr>
                     </tbody>
                 </table>
             </section>
         </main>
+            </div>
         </body>
         </html>

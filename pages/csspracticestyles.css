@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  font: inherit;
+  color: inherit;
+}
+
+body {
+  font-family: 'Gloock', serif;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5rem;
+  word-spacing: 0.3rem;
+  background-color: #e1f2e7;
+}
+
+p {
+  max-width: 600;
+}
+
+header {
+  width: 100%;
+  margin: 0;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-basis: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: #568d6d;
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+text-align: center;
+margin-top: 10px;
+padding-bottom: 20px;
+}
+
+.internal--link {
+  text-decoration: none;
+  color: #09092c;
+  margin-left: 0px;
+  margin-right: 20px;
+  padding: 5px 20px;
+  background-color: gainsboro;
+  border: 1px solid darkgray;
+  border-radius: 40px;
+  box-shadow: 2px 2px rgb(35, 35, 35);
+}
+
+#contact-me {
+  background: #69c7b3;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.headline {
+  font-size: 38px;
+    font-weight: 500;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.project-table {
+  border: solid 1px black;
+}
+
+.table-index {
+  border: solid 1px black;
+}
+
+.table-content {
+  border: solid 1px black;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .navigation {
+    display: block;
+    flex: 1;
+    text-align: right;
+      }
+
+  .logo {
+    text-align: left;
+  }
+
+  .internal--link {
+    padding: 5px 15px;
+  }
+}    
